@@ -1,0 +1,27 @@
+{
+  "name": "restapi-node-postgresql",
+  "version": "1.0.0",
+  "description": "A simple node postgresql restapi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdan8co/restapi-node-postgresql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosdan8co/restapi-node-postgresql/issues"
+  },
+  "homepage": "https://github.com/carlosdan8co/restapi-node-postgresql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
